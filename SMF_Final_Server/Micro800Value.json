@@ -1,0 +1,263 @@
+{
+    "dataShape": {
+        "fieldDefinitions": {
+            "IndustrialThing": {
+                "name": "IndustrialThing",
+                "description": "Name of the agent with the tags",
+                "baseType": "THINGNAME",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isPersistent": true,
+                    "thingTemplate": "IndustrialGateway"
+                }
+            },
+            "name": {
+                "name": "name",
+                "description": "Thing name",
+                "baseType": "STRING",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "isPersistent": false,
+                    "isBuiltIn": true
+                }
+            },
+            "description": {
+                "name": "description",
+                "description": "Thing description",
+                "baseType": "STRING",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "isPersistent": false,
+                    "isBuiltIn": true
+                }
+            },
+            "thingTemplate": {
+                "name": "thingTemplate",
+                "description": "Thing Template",
+                "baseType": "THINGTEMPLATENAME",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "isPersistent": false,
+                    "isBuiltIn": true
+                }
+            },
+            "tags": {
+                "name": "tags",
+                "description": "Thing Tags",
+                "baseType": "TAGS",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "isPersistent": false,
+                    "tagType": "ModelTags",
+                    "isBuiltIn": true
+                }
+            },
+            "isReporting": {
+                "name": "isReporting",
+                "description": "Health of this device's connection",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "defaultValue": false,
+                    "isPersistent": false
+                }
+            },
+            "reportingLastEvaluation": {
+                "name": "reportingLastEvaluation",
+                "description": "Last time evaluated for Reporting",
+                "baseType": "DATETIME",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "defaultValue": 0,
+                    "isPersistent": true
+                }
+            },
+            "reportingLastChange": {
+                "name": "reportingLastChange",
+                "description": "Last time isReporting value changed",
+                "baseType": "DATETIME",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "defaultValue": 0,
+                    "isPersistent": true
+                }
+            },
+            "isConnected": {
+                "name": "isConnected",
+                "description": "Flag indicating if connected or not",
+                "baseType": "BOOLEAN",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "defaultValue": false,
+                    "isPersistent": false
+                }
+            },
+            "lastConnection": {
+                "name": "lastConnection",
+                "description": "Last connection time",
+                "baseType": "DATETIME",
+                "ordinal": 0,
+                "aspects": {
+                    "isReadOnly": true,
+                    "defaultValue": 0,
+                    "isPersistent": true
+                }
+            },
+            "Micro800_ARDEMO_Do3": {
+                "name": "Micro800_ARDEMO_Do3",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 10,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Do4": {
+                "name": "Micro800_ARDEMO_Do4",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 11,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Di3": {
+                "name": "Micro800_ARDEMO_Di3",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 4,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Di4": {
+                "name": "Micro800_ARDEMO_Di4",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 5,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Di1": {
+                "name": "Micro800_ARDEMO_Di1",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 2,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Di2": {
+                "name": "Micro800_ARDEMO_Di2",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 3,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Position": {
+                "name": "Micro800_ARDEMO_Position",
+                "description": "",
+                "baseType": "INTEGER",
+                "ordinal": 12,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Di5": {
+                "name": "Micro800_ARDEMO_Di5",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 6,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Di6": {
+                "name": "Micro800_ARDEMO_Di6",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 7,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Do1": {
+                "name": "Micro800_ARDEMO_Do1",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 8,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            },
+            "Micro800_ARDEMO_Do2": {
+                "name": "Micro800_ARDEMO_Do2",
+                "description": "",
+                "baseType": "BOOLEAN",
+                "ordinal": 9,
+                "aspects": {
+                    "isReadOnly": false,
+                    "isRemote": true,
+                    "dataChangeType": "VALUE"
+                }
+            }
+        }
+    },
+    "rows": [
+        {
+            "IndustrialThing": "Micro800",
+            "name": "HoloThing",
+            "description": "",
+            "thingTemplate": "RemoteThing",
+            "tags": [],
+            "isReporting": true,
+            "reportingLastEvaluation": 1624354590100,
+            "reportingLastChange": 1624354590100,
+            "isConnected": true,
+            "lastConnection": 1624354590100,
+            "Micro800_ARDEMO_Do3": false,
+            "Micro800_ARDEMO_Do4": false,
+            "Micro800_ARDEMO_Di3": false,
+            "Micro800_ARDEMO_Di4": false,
+            "Micro800_ARDEMO_Di1": false,
+            "Micro800_ARDEMO_Di2": false,
+            "Micro800_ARDEMO_Position": 30868,
+            "Micro800_ARDEMO_Di5": false,
+            "Micro800_ARDEMO_Di6": false,
+            "Micro800_ARDEMO_Do1": false,
+            "Micro800_ARDEMO_Do2": false
+        }
+    ]
+}
