@@ -1,0 +1,626 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void GameManager::Start()
+extern void GameManager_Start_m26461AEF27E44DB8FECCBC19D6C9E228B658BF8E (void);
+// 0x00000002 System.Void GameManager::StartStream()
+extern void GameManager_StartStream_mBF66EEFDF8C781674D8B4A8B5387B7C1022967BB (void);
+// 0x00000003 System.Void GameManager::.ctor()
+extern void GameManager__ctor_mE8666F6D0CA9C31E16B719F79780DC4B0245B64D (void);
+// 0x00000004 SocketManager SocketManager::get_Instance()
+extern void SocketManager_get_Instance_m87D43BACDCED73D8835A0729803879404120A6BB (void);
+// 0x00000005 System.Void SocketManager::Start()
+extern void SocketManager_Start_m9EEF513D73B2859465834840E2478C5094614E52 (void);
+// 0x00000006 System.Void SocketManager::Update()
+extern void SocketManager_Update_m14214186D48C38DEEE8BAE2D97224676B87C7460 (void);
+// 0x00000007 System.Void SocketManager::Init()
+extern void SocketManager_Init_mB62FFF23AA57D8C1CCD22D8EF389E128A689ECA8 (void);
+// 0x00000008 System.Boolean SocketManager::ClientConnect()
+extern void SocketManager_ClientConnect_m3261ACB38839675562DF1AEFF92458A8C1CDB84B (void);
+// 0x00000009 System.Void SocketManager::ClientReceiveMessage(System.String,System.Int32)
+extern void SocketManager_ClientReceiveMessage_m29CB883062F5B292E5A2CF45DEDB6F545CCB1630 (void);
+// 0x0000000A System.Void SocketManager::ClientWarning()
+extern void SocketManager_ClientWarning_m8B45D357EC30D0139616C7D0A7351A5A1B67BFC5 (void);
+// 0x0000000B System.Void SocketManager::ClientRestart()
+extern void SocketManager_ClientRestart_m985676098E562754F8405C704D9CF049E55F04B2 (void);
+// 0x0000000C System.Collections.IEnumerator SocketManager::AI_e_ClientRstart()
+extern void SocketManager_AI_e_ClientRstart_m47E1B9FA12BA90A3177AB3A7428ADC5E9464FCBF (void);
+// 0x0000000D System.Void SocketManager::byteLengthToFrameByteArray(System.String,System.Byte[])
+extern void SocketManager_byteLengthToFrameByteArray_mDD3D9D0638929E3C99F163EC440C578C9751B712 (void);
+// 0x0000000E System.Void SocketManager::SendJson(System.Object)
+extern void SocketManager_SendJson_m969E7FB700FA850CCC0FFC45CAF11B4DCA27F50B (void);
+// 0x0000000F System.Void SocketManager::CloseAISocket()
+extern void SocketManager_CloseAISocket_m3A3450D943ED6C11C0EA4E4399EE57FC4AE543D9 (void);
+// 0x00000010 System.Void SocketManager::OnDisable()
+extern void SocketManager_OnDisable_m56806068A94A6D94D447ADDE9D640D1A2F519E2A (void);
+// 0x00000011 System.Void SocketManager::.ctor()
+extern void SocketManager__ctor_mB1966FF5284C6F9DFDA05917E9F65CA2ED79143F (void);
+// 0x00000012 System.Void SocketManager/<AI_e_ClientRstart>d__18::.ctor(System.Int32)
+extern void U3CAI_e_ClientRstartU3Ed__18__ctor_mD2A3DB05AEEE7695079549182838D41E0060C1E1 (void);
+// 0x00000013 System.Void SocketManager/<AI_e_ClientRstart>d__18::System.IDisposable.Dispose()
+extern void U3CAI_e_ClientRstartU3Ed__18_System_IDisposable_Dispose_m3A3652A4CAA7F57D79F8A6C834FD431D87BAF721 (void);
+// 0x00000014 System.Boolean SocketManager/<AI_e_ClientRstart>d__18::MoveNext()
+extern void U3CAI_e_ClientRstartU3Ed__18_MoveNext_m80EA80EE40320EBB91CC1B64CE96C12F4F58C6E0 (void);
+// 0x00000015 System.Object SocketManager/<AI_e_ClientRstart>d__18::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAI_e_ClientRstartU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2E57E167BAA5D06B85A38D319509C3972F924B92 (void);
+// 0x00000016 System.Void SocketManager/<AI_e_ClientRstart>d__18::System.Collections.IEnumerator.Reset()
+extern void U3CAI_e_ClientRstartU3Ed__18_System_Collections_IEnumerator_Reset_m6C1DFDE3BB2D7079CB27E660C5EA7C63A906EEAD (void);
+// 0x00000017 System.Object SocketManager/<AI_e_ClientRstart>d__18::System.Collections.IEnumerator.get_Current()
+extern void U3CAI_e_ClientRstartU3Ed__18_System_Collections_IEnumerator_get_Current_mDEA542A6022A26586E5D8687D1F9DC7A7586AD2F (void);
+// 0x00000018 MediaCaptureUnity MediaCaptureUnity::get_Instance()
+extern void MediaCaptureUnity_get_Instance_m456E9A04BEC9D3A8971A895D646A4C9287BF10A4 (void);
+// 0x00000019 System.Void MediaCaptureUnity::ResetMediaCaptureforFocus()
+extern void MediaCaptureUnity_ResetMediaCaptureforFocus_mB5BD9392B89952C5A5B3078A3F817393CE853C3E (void);
+// 0x0000001A System.Void MediaCaptureUnity::EncodeRealImage(Windows.Graphics.Imaging.SoftwareBitmap,System.Guid)
+extern void MediaCaptureUnity_EncodeRealImage_mAC2D4D3540B81654A255000956120260A49CE01E (void);
+// 0x0000001B System.Threading.Tasks.Task`1<System.Boolean> MediaCaptureUnity::InitializeMediaCaptureAsync()
+extern void MediaCaptureUnity_InitializeMediaCaptureAsync_mEC2AC8CD8738CE501B741F49646E6F7AEEA80EB0 (void);
+// 0x0000001C System.Threading.Tasks.Task`1<System.Boolean> MediaCaptureUnity::StartFrameReaderAsync()
+extern void MediaCaptureUnity_StartFrameReaderAsync_m398B9D384BCD6054DB783D011D307D48A3403A35 (void);
+// 0x0000001D System.Threading.Tasks.Task`1<System.Boolean> MediaCaptureUnity::StopFrameReaderAsync()
+extern void MediaCaptureUnity_StopFrameReaderAsync_mA768CBE2BC13FA6CB0A7BD58121BA15D745AA4AE (void);
+// 0x0000001E System.Void MediaCaptureUnity::OnFrameArrived(Windows.Media.Capture.Frames.MediaFrameReader,Windows.Media.Capture.Frames.MediaFrameArrivedEventArgs)
+extern void MediaCaptureUnity_OnFrameArrived_mF92B566250A188C7CC6F105CD9868C0FB5734FBE (void);
+// 0x0000001F System.Void MediaCaptureUnity::CreateSoftwareBitmapFromSurface(Windows.Graphics.DirectX.Direct3D11.IDirect3DSurface)
+extern void MediaCaptureUnity_CreateSoftwareBitmapFromSurface_m13E36E7E108F67F86AD42B193F634F66297CDB0E (void);
+// 0x00000020 System.Void MediaCaptureUnity::InitializeMediaCaptureAsyncWrapper()
+extern void MediaCaptureUnity_InitializeMediaCaptureAsyncWrapper_m0AB7150840CBDF14EB0D3DDA7EEB3ADD91E9E0A3 (void);
+// 0x00000021 System.Void MediaCaptureUnity::StartFrameReaderAsyncWrapper()
+extern void MediaCaptureUnity_StartFrameReaderAsyncWrapper_m5D65F2793BD5F556F2378BF87C4E16D8992507E0 (void);
+// 0x00000022 System.Void MediaCaptureUnity::StopFrameReaderAsyncWrapper()
+extern void MediaCaptureUnity_StopFrameReaderAsyncWrapper_m865966E7B147EB642B20B07A4FE0E899BBA29ACE (void);
+// 0x00000023 System.Void MediaCaptureUnity::Update()
+extern void MediaCaptureUnity_Update_m4EE72C7831554B0D807FBEAA61FC29BCE05E68DF (void);
+// 0x00000024 System.Void MediaCaptureUnity::Start()
+extern void MediaCaptureUnity_Start_m0468A37C2BD6C1D1CD6DCBDC81991034A685A2CA (void);
+// 0x00000025 System.Void MediaCaptureUnity::OnApplicationFocus(System.Boolean)
+extern void MediaCaptureUnity_OnApplicationFocus_mCCAC2C5E3E3FD8281AE85A1E7A26FA9227853184 (void);
+// 0x00000026 System.Collections.IEnumerator MediaCaptureUnity::e_ResetMediaCapture()
+extern void MediaCaptureUnity_e_ResetMediaCapture_m4AB469B525594C8669129DEC4F896EB31C9062DF (void);
+// 0x00000027 System.Collections.IEnumerator MediaCaptureUnity::e_ResetMediaCaptureforFocus()
+extern void MediaCaptureUnity_e_ResetMediaCaptureforFocus_m494E487ADC8A60EB4DB57FF0A41EC8880DA565F7 (void);
+// 0x00000028 System.Void MediaCaptureUnity::ToggleVideo()
+extern void MediaCaptureUnity_ToggleVideo_m5850E63D8F2B856F99EDDADE7CBC0BC2CE66F08E (void);
+// 0x00000029 System.Collections.IEnumerator MediaCaptureUnity::ResetMediaCapture()
+extern void MediaCaptureUnity_ResetMediaCapture_m7E6BAEC04DF087298F3F5BD7B9A3E2018D3C741A (void);
+// 0x0000002A System.Void MediaCaptureUnity::.ctor()
+extern void MediaCaptureUnity__ctor_m20D47124EF20AB2559BB61E3CB0687D4B6B2D89E (void);
+// 0x0000002B System.Void MediaCaptureUnity::.cctor()
+extern void MediaCaptureUnity__cctor_m1B6C6F27508AC138E85A11D9BCF0BBD1B2832E8E (void);
+// 0x0000002C System.Void MediaCaptureUnity::<InitializeMediaCaptureAsyncWrapper>b__30_0()
+extern void MediaCaptureUnity_U3CInitializeMediaCaptureAsyncWrapperU3Eb__30_0_mFF65570EF4EE6D5092DD0F30205E5ACE782C36E3 (void);
+// 0x0000002D System.Void MediaCaptureUnity/IMemoryBufferByteAccess::GetBuffer(System.Byte*&,System.UInt32&)
+extern void IMemoryBufferByteAccess_GetBuffer_m521C91DEA02F896C42EFCE9ADDF525C2C98DB0DB (void);
+// 0x0000002E System.Void MediaCaptureUnity/<>c__DisplayClass23_0::.ctor()
+extern void U3CU3Ec__DisplayClass23_0__ctor_mDF4C488E30BD05BB8EF871CAD96FD6A87A87E347 (void);
+// 0x0000002F System.Threading.Tasks.Task MediaCaptureUnity/<>c__DisplayClass23_0::<EncodeRealImage>b__0()
+extern void U3CU3Ec__DisplayClass23_0_U3CEncodeRealImageU3Eb__0_m9CA6EBA5C5F3A3B696D6F0C9AB4E6A6AF3B22371 (void);
+// 0x00000030 System.Void MediaCaptureUnity/<>c__DisplayClass23_0/<<EncodeRealImage>b__0>d::MoveNext()
+extern void U3CU3CEncodeRealImageU3Eb__0U3Ed_MoveNext_mCB6AFFF90F56B956733576C733D838B9C862CD13 (void);
+// 0x00000031 System.Void MediaCaptureUnity/<>c__DisplayClass23_0/<<EncodeRealImage>b__0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CU3CEncodeRealImageU3Eb__0U3Ed_SetStateMachine_m810F93954B87A2C43B3BF7F1D42CE56A860DD3BE (void);
+// 0x00000032 System.Void MediaCaptureUnity/<>c__DisplayClass24_0::.ctor()
+extern void U3CU3Ec__DisplayClass24_0__ctor_mDF2790596CA155578D378E8008AE716E3ECD9A99 (void);
+// 0x00000033 System.Boolean MediaCaptureUnity/<>c__DisplayClass24_0::<InitializeMediaCaptureAsync>b__0(Windows.Media.Capture.Frames.MediaFrameSource)
+extern void U3CU3Ec__DisplayClass24_0_U3CInitializeMediaCaptureAsyncU3Eb__0_m9921FDBD9A8BFA314CFCBD426C657D4E4C8758DC (void);
+// 0x00000034 System.Void MediaCaptureUnity/<>c::.cctor()
+extern void U3CU3Ec__cctor_mE0ABF9AC67111EDE01A3C25508BC39DF467F4A2E (void);
+// 0x00000035 System.Void MediaCaptureUnity/<>c::.ctor()
+extern void U3CU3Ec__ctor_m419FE4D9521821EEFC7B6A0607E2E68D217CD5C1 (void);
+// 0x00000036 System.UInt32 MediaCaptureUnity/<>c::<InitializeMediaCaptureAsync>b__24_1(Windows.Media.Capture.Frames.MediaFrameFormat)
+extern void U3CU3Ec_U3CInitializeMediaCaptureAsyncU3Eb__24_1_m7A4E4E354280D561AF7272FDA42C41FCF1B90EA2 (void);
+// 0x00000037 System.Void MediaCaptureUnity/<InitializeMediaCaptureAsync>d__24::MoveNext()
+extern void U3CInitializeMediaCaptureAsyncU3Ed__24_MoveNext_mE5F34E6B13C06527B340FCACA94C1EE6179CB2E7 (void);
+// 0x00000038 System.Void MediaCaptureUnity/<InitializeMediaCaptureAsync>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CInitializeMediaCaptureAsyncU3Ed__24_SetStateMachine_mBF0593B391EA9DE1CFA5F6BD6C53CFE7C8CC5D92 (void);
+// 0x00000039 System.Void MediaCaptureUnity/<StartFrameReaderAsync>d__25::MoveNext()
+extern void U3CStartFrameReaderAsyncU3Ed__25_MoveNext_m8E4516861F6960EB97615D262AA38A139750B723 (void);
+// 0x0000003A System.Void MediaCaptureUnity/<StartFrameReaderAsync>d__25::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartFrameReaderAsyncU3Ed__25_SetStateMachine_mD823B23C64A8641AD67623843CA923C9FE1E177E (void);
+// 0x0000003B System.Void MediaCaptureUnity/<StopFrameReaderAsync>d__26::MoveNext()
+extern void U3CStopFrameReaderAsyncU3Ed__26_MoveNext_m6A355C3ABFAF96C3670E46AB6C9B035AD9A398B6 (void);
+// 0x0000003C System.Void MediaCaptureUnity/<StopFrameReaderAsync>d__26::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStopFrameReaderAsyncU3Ed__26_SetStateMachine_mE342DEED4901A3577BD461B79D18D7115710EA46 (void);
+// 0x0000003D System.Void MediaCaptureUnity/<CreateSoftwareBitmapFromSurface>d__29::MoveNext()
+extern void U3CCreateSoftwareBitmapFromSurfaceU3Ed__29_MoveNext_m0318182FC04204912E92D6B98C8A3EAA426DD860 (void);
+// 0x0000003E System.Void MediaCaptureUnity/<CreateSoftwareBitmapFromSurface>d__29::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCreateSoftwareBitmapFromSurfaceU3Ed__29_SetStateMachine_m1C2911FD3DBBB373A02F55CE11DF1E2BF759D8F7 (void);
+// 0x0000003F System.Void MediaCaptureUnity/<InitializeMediaCaptureAsyncWrapper>d__30::MoveNext()
+extern void U3CInitializeMediaCaptureAsyncWrapperU3Ed__30_MoveNext_mB3BBBD765089D07979959295780C67B2535A99F2 (void);
+// 0x00000040 System.Void MediaCaptureUnity/<InitializeMediaCaptureAsyncWrapper>d__30::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CInitializeMediaCaptureAsyncWrapperU3Ed__30_SetStateMachine_mA7D1484BEB1FCBB485A7EEF8B49E0BF6EAE9BCD4 (void);
+// 0x00000041 System.Void MediaCaptureUnity/<StartFrameReaderAsyncWrapper>d__31::MoveNext()
+extern void U3CStartFrameReaderAsyncWrapperU3Ed__31_MoveNext_m16FCB4BFD8ADB92980710E9C17E0F70A0B0B2396 (void);
+// 0x00000042 System.Void MediaCaptureUnity/<StartFrameReaderAsyncWrapper>d__31::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartFrameReaderAsyncWrapperU3Ed__31_SetStateMachine_m8D42D175FCB28ADDCA5DE0A136FA22697C3C8626 (void);
+// 0x00000043 System.Void MediaCaptureUnity/<StopFrameReaderAsyncWrapper>d__32::MoveNext()
+extern void U3CStopFrameReaderAsyncWrapperU3Ed__32_MoveNext_m57F69B086CDC18EAFAD95ADCBF6C09EE47888015 (void);
+// 0x00000044 System.Void MediaCaptureUnity/<StopFrameReaderAsyncWrapper>d__32::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStopFrameReaderAsyncWrapperU3Ed__32_SetStateMachine_mF0B5C2013137C35E7A937F6A433CB4CC35A38EBA (void);
+// 0x00000045 System.Void MediaCaptureUnity/<e_ResetMediaCapture>d__36::.ctor(System.Int32)
+extern void U3Ce_ResetMediaCaptureU3Ed__36__ctor_mBB756A2986C9FDE634580EC52AF998C3162FA029 (void);
+// 0x00000046 System.Void MediaCaptureUnity/<e_ResetMediaCapture>d__36::System.IDisposable.Dispose()
+extern void U3Ce_ResetMediaCaptureU3Ed__36_System_IDisposable_Dispose_mB27A11CB17D34EE9113F43B7565691AF678797BD (void);
+// 0x00000047 System.Boolean MediaCaptureUnity/<e_ResetMediaCapture>d__36::MoveNext()
+extern void U3Ce_ResetMediaCaptureU3Ed__36_MoveNext_mF92522B4F248C3A539D3D2B6E5C455F774DF6957 (void);
+// 0x00000048 System.Object MediaCaptureUnity/<e_ResetMediaCapture>d__36::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3Ce_ResetMediaCaptureU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2C56F3B695C309D1FBB36BC6CCDC3020268A49B2 (void);
+// 0x00000049 System.Void MediaCaptureUnity/<e_ResetMediaCapture>d__36::System.Collections.IEnumerator.Reset()
+extern void U3Ce_ResetMediaCaptureU3Ed__36_System_Collections_IEnumerator_Reset_m7C6D04A7F2ACDB22221C7D3B7EFF6242A4768112 (void);
+// 0x0000004A System.Object MediaCaptureUnity/<e_ResetMediaCapture>d__36::System.Collections.IEnumerator.get_Current()
+extern void U3Ce_ResetMediaCaptureU3Ed__36_System_Collections_IEnumerator_get_Current_m4BAD9F5CAE53182F573E36DD0E5B5888E9E46ADE (void);
+// 0x0000004B System.Void MediaCaptureUnity/<e_ResetMediaCaptureforFocus>d__37::.ctor(System.Int32)
+extern void U3Ce_ResetMediaCaptureforFocusU3Ed__37__ctor_mF14C86126DF493F2A0C64C3C98971BBBD806F31C (void);
+// 0x0000004C System.Void MediaCaptureUnity/<e_ResetMediaCaptureforFocus>d__37::System.IDisposable.Dispose()
+extern void U3Ce_ResetMediaCaptureforFocusU3Ed__37_System_IDisposable_Dispose_m5BA4103F50C7F59BEEBA3CA43A80C2D486D0C4ED (void);
+// 0x0000004D System.Boolean MediaCaptureUnity/<e_ResetMediaCaptureforFocus>d__37::MoveNext()
+extern void U3Ce_ResetMediaCaptureforFocusU3Ed__37_MoveNext_m6CDAE083825DEAA33169CB580766A2A8D3F2185A (void);
+// 0x0000004E System.Object MediaCaptureUnity/<e_ResetMediaCaptureforFocus>d__37::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3Ce_ResetMediaCaptureforFocusU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2C776387260B4AD13A4D50326614AA41A08A03AE (void);
+// 0x0000004F System.Void MediaCaptureUnity/<e_ResetMediaCaptureforFocus>d__37::System.Collections.IEnumerator.Reset()
+extern void U3Ce_ResetMediaCaptureforFocusU3Ed__37_System_Collections_IEnumerator_Reset_m996C36668BAC4C87DEE9362A1DB00B362657D4BF (void);
+// 0x00000050 System.Object MediaCaptureUnity/<e_ResetMediaCaptureforFocus>d__37::System.Collections.IEnumerator.get_Current()
+extern void U3Ce_ResetMediaCaptureforFocusU3Ed__37_System_Collections_IEnumerator_get_Current_m8862FF21A13DE1A7DECE3EDB04A3870BD3E282D2 (void);
+// 0x00000051 System.Void MediaCaptureUnity/<ResetMediaCapture>d__39::.ctor(System.Int32)
+extern void U3CResetMediaCaptureU3Ed__39__ctor_m12632EBAE771148CEE7DAA29F1E34C7963D25812 (void);
+// 0x00000052 System.Void MediaCaptureUnity/<ResetMediaCapture>d__39::System.IDisposable.Dispose()
+extern void U3CResetMediaCaptureU3Ed__39_System_IDisposable_Dispose_m1575A3AC54E995BD416A6203325776B936941416 (void);
+// 0x00000053 System.Boolean MediaCaptureUnity/<ResetMediaCapture>d__39::MoveNext()
+extern void U3CResetMediaCaptureU3Ed__39_MoveNext_m5956C9CFA40C56A62A459A753226817BF87E9B99 (void);
+// 0x00000054 System.Object MediaCaptureUnity/<ResetMediaCapture>d__39::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CResetMediaCaptureU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m973DAD5C60A2B5DD71A9F1A76C227EB2F8494309 (void);
+// 0x00000055 System.Void MediaCaptureUnity/<ResetMediaCapture>d__39::System.Collections.IEnumerator.Reset()
+extern void U3CResetMediaCaptureU3Ed__39_System_Collections_IEnumerator_Reset_mFBF97A96949A7B5F077C0C10AD7419967717CF28 (void);
+// 0x00000056 System.Object MediaCaptureUnity/<ResetMediaCapture>d__39::System.Collections.IEnumerator.get_Current()
+extern void U3CResetMediaCaptureU3Ed__39_System_Collections_IEnumerator_get_Current_m1C627A284EB96EE234D0434D075F255680E1028E (void);
+// 0x00000057 System.Void MotorStatus::Start()
+extern void MotorStatus_Start_m13EEDEC7D49D7DA68B200326B000BAA43F457A6E (void);
+// 0x00000058 System.Void MotorStatus::Update()
+extern void MotorStatus_Update_mB9DFF2E8C7621DAC678768290EBB12B297103B4C (void);
+// 0x00000059 System.Void MotorStatus::dosUpdate(System.Int32,System.Boolean)
+extern void MotorStatus_dosUpdate_m3387D1CAF2EFE5C7E39A8597BF4D3BF6A7B3C9B8 (void);
+// 0x0000005A System.Void MotorStatus::disUpdate(System.Int32,System.Boolean)
+extern void MotorStatus_disUpdate_m5BA355CC0590868DA59CE1709CAB470FB8346239 (void);
+// 0x0000005B System.Void MotorStatus::.ctor()
+extern void MotorStatus__ctor_m9C1B0213EFB98C33DCBCE7B427416E97F2EE4593 (void);
+// 0x0000005C System.Void CTcpClient::add_Receive(CTcpClient/d_Receive)
+extern void CTcpClient_add_Receive_m5B5A856D773EC9F9265EA4289DF7D8606A5F2CFC (void);
+// 0x0000005D System.Void CTcpClient::remove_Receive(CTcpClient/d_Receive)
+extern void CTcpClient_remove_Receive_m8CFA450C59F4705E4335BD4EFF7023E3DCC3D517 (void);
+// 0x0000005E System.Void CTcpClient::add_Warning(CTcpClient/d_Warning)
+extern void CTcpClient_add_Warning_m96918CF88EAC77B6822B8C6C631712CC1AE3426D (void);
+// 0x0000005F System.Void CTcpClient::remove_Warning(CTcpClient/d_Warning)
+extern void CTcpClient_remove_Warning_m9376CF2C940CB0FB536D175245C77FA5A7165597 (void);
+// 0x00000060 System.String CTcpClient::get_IP()
+extern void CTcpClient_get_IP_m92BD65CCCF5917A68887E6116A5570AF543450E9 (void);
+// 0x00000061 System.Void CTcpClient::set_IP(System.String)
+extern void CTcpClient_set_IP_m610FF34E40A724650239CAB7FF1050F887887956 (void);
+// 0x00000062 System.Int32 CTcpClient::get_Port()
+extern void CTcpClient_get_Port_mE2C44405CD49B2B2E3AD033E00C89F7E3C68361C (void);
+// 0x00000063 System.Void CTcpClient::set_Port(System.Int32)
+extern void CTcpClient_set_Port_m80006A3AFB8C1C715E6EAE207D183EDD8E02528C (void);
+// 0x00000064 System.Void CTcpClient::.ctor(System.String,System.Int32,System.Net.Sockets.AddressFamily,System.Net.Sockets.SocketType,System.Net.Sockets.ProtocolType)
+extern void CTcpClient__ctor_m5558E43F1D0F92A13D42209CA566DEE257A99781 (void);
+// 0x00000065 System.Void CTcpClient::StartConnect()
+extern void CTcpClient_StartConnect_m8368D6961736C762CE232ED1B4720D99D66617BD (void);
+// 0x00000066 System.Void CTcpClient::StopConnect()
+extern void CTcpClient_StopConnect_m5484A07511E2601CF15C96BC6DFBBBB9932EA2C3 (void);
+// 0x00000067 System.Boolean CTcpClient::get_IsConnected()
+extern void CTcpClient_get_IsConnected_m4EC01CEB146A9EF52A524E0D4D2856D9CB153B43 (void);
+// 0x00000068 System.Void CTcpClient::Send(System.String)
+extern void CTcpClient_Send_mC0FD263B26D6CB3501610C626CD02CF2AF2450D3 (void);
+// 0x00000069 System.Void CTcpClient::SendByte(System.Byte[])
+extern void CTcpClient_SendByte_m597297635D738A008B78B025B8D2EB254D30A387 (void);
+// 0x0000006A System.Void CTcpClient::AsyncSendByte(System.Byte[],System.Byte[])
+extern void CTcpClient_AsyncSendByte_mC3678CD0D35AE5A53E284A3D3987FA1F7EEAD931 (void);
+// 0x0000006B System.Void CTcpClient::Thread_Connect()
+extern void CTcpClient_Thread_Connect_m68B1E2FA1D6887935DE36327951AA4BE67D49ED8 (void);
+// 0x0000006C System.Void CTcpClient::ConnectCallback(System.IAsyncResult)
+extern void CTcpClient_ConnectCallback_m21972A4BE9FA0A0460E5474E1DCA93EA04DBC743 (void);
+// 0x0000006D System.Void CTcpClient::SendCallback(System.IAsyncResult)
+extern void CTcpClient_SendCallback_m9DC1DF9FD682C0304534B8334D6F557B3A44231C (void);
+// 0x0000006E System.Void CTcpClient::.cctor()
+extern void CTcpClient__cctor_mEBDFE14A9322C9B6798DC247BD151D95B555AA65 (void);
+// 0x0000006F System.Void CTcpClient::<.ctor>b__27_0(System.Object,System.ComponentModel.DoWorkEventArgs)
+extern void CTcpClient_U3C_ctorU3Eb__27_0_m1AE2110EDFA86FD199AEED5C4B9005D676A6C1C2 (void);
+// 0x00000070 System.Void CTcpClient/d_Receive::.ctor(System.Object,System.IntPtr)
+extern void d_Receive__ctor_m59F39A8977B7A78F0F5CF5B8216767EE29610D19 (void);
+// 0x00000071 System.Void CTcpClient/d_Receive::Invoke(System.String,System.Int32)
+extern void d_Receive_Invoke_m3042DBAA485461B02A8BC37C7AF9B2CC9D0A2161 (void);
+// 0x00000072 System.IAsyncResult CTcpClient/d_Receive::BeginInvoke(System.String,System.Int32,System.AsyncCallback,System.Object)
+extern void d_Receive_BeginInvoke_mAE07F27ECC8B5FC7828A4BE8715F8E52153CA22A (void);
+// 0x00000073 System.Void CTcpClient/d_Receive::EndInvoke(System.IAsyncResult)
+extern void d_Receive_EndInvoke_mD39DDB68B58819F10A56EEEDAFABFCFC84D16922 (void);
+// 0x00000074 System.Void CTcpClient/d_Warning::.ctor(System.Object,System.IntPtr)
+extern void d_Warning__ctor_m2FABF70BD1A0C52CD1B97A555AF5F1AE9A3A9CB7 (void);
+// 0x00000075 System.Void CTcpClient/d_Warning::Invoke()
+extern void d_Warning_Invoke_m6EF1B27521B11EE2431EA13E64A00D2EF9BB3416 (void);
+// 0x00000076 System.IAsyncResult CTcpClient/d_Warning::BeginInvoke(System.AsyncCallback,System.Object)
+extern void d_Warning_BeginInvoke_mF16B9B5E7C4A0A61A2F6A328BD20470DCFCFA7FD (void);
+// 0x00000077 System.Void CTcpClient/d_Warning::EndInvoke(System.IAsyncResult)
+extern void d_Warning_EndInvoke_mAAEF5E4FAA951A9A247273266ECB3024D2508A12 (void);
+// 0x00000078 System.Void CTcpClient/<>c::.cctor()
+extern void U3CU3Ec__cctor_mC779D9A44701D927C199C7DB09342B0B6D39BA77 (void);
+// 0x00000079 System.Void CTcpClient/<>c::.ctor()
+extern void U3CU3Ec__ctor_m89849EC667CD0B76408945FFD6D88448389F2428 (void);
+// 0x0000007A System.Void CTcpClient/<>c::<.ctor>b__27_1(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)
+extern void U3CU3Ec_U3C_ctorU3Eb__27_1_mCB0BC9A83805A0D48589F1E377E3DF828D9A2A26 (void);
+// 0x0000007B System.Void ParsingResult::Start()
+extern void ParsingResult_Start_m479480E3305F1700A59D621BCBDCCCBAE41A92B2 (void);
+// 0x0000007C System.Void ParsingResult::Update()
+extern void ParsingResult_Update_mB10BD5348B418BD1FC61678CAA2B025699FDC61B (void);
+// 0x0000007D System.Void ParsingResult::parsing(System.String)
+extern void ParsingResult_parsing_mFB413268BC91C14F2853428544C3EE4462F1DAAC (void);
+// 0x0000007E System.Void ParsingResult::.ctor()
+extern void ParsingResult__ctor_mE9A6A90BB56B2100D3DFF259C9DFE184546E1007 (void);
+// 0x0000007F System.Void SettingServerIP::Start()
+extern void SettingServerIP_Start_mDE042AFD4C569BC75C1B9072F30B6BE96750FFAD (void);
+// 0x00000080 System.Void SettingServerIP::Update()
+extern void SettingServerIP_Update_m0F997B0A508A64C21A484D6D74DBB4131E2F2AA6 (void);
+// 0x00000081 System.Void SettingServerIP::setIP()
+extern void SettingServerIP_setIP_m285E6597B3E555D2FE24A00C5C211B1902EB949B (void);
+// 0x00000082 System.Void SettingServerIP::.ctor()
+extern void SettingServerIP__ctor_m9F96DCEB1F3B3050ECEC98D7F053680694F61D6E (void);
+// 0x00000083 System.Void SocketMsgAttributeSpace.SMsgAttribute::.ctor()
+extern void SMsgAttribute__ctor_mBEC56FC1AF2CD796B625B4906806CF611DC5DDA3 (void);
+// 0x00000084 SocketMsgAttributeSpace.SocketMsgManager SocketMsgAttributeSpace.SocketMsgManager::get_Instance()
+extern void SocketMsgManager_get_Instance_mE99B0D4F54BCA658CB1D5277AB8F3B696DA484E9 (void);
+// 0x00000085 System.Void SocketMsgAttributeSpace.SocketMsgManager::set_Instance(SocketMsgAttributeSpace.SocketMsgManager)
+extern void SocketMsgManager_set_Instance_mDCD5877849F0572F6C37770E94F7ECDC78FF2DC7 (void);
+// 0x00000086 System.Void SocketMsgAttributeSpace.SocketMsgManager::Awake()
+extern void SocketMsgManager_Awake_m948D3B82C8644E9F1E34464838FE47636B432AA7 (void);
+// 0x00000087 System.Void SocketMsgAttributeSpace.SocketMsgManager::ParseJson(System.String)
+extern void SocketMsgManager_ParseJson_mB45140EBCD8FF5BC6D7A1EB4179E7F30012761A8 (void);
+// 0x00000088 System.Void SocketMsgAttributeSpace.SocketMsgManager::.ctor()
+extern void SocketMsgManager__ctor_mD16D2ABD0F90C82B999D73CA0BAE049E29097A60 (void);
+// 0x00000089 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_mD94B0E22EF32AD3DFD277ED8E911B5DFA4CDB91E (void);
+static Il2CppMethodPointer s_methodPointers[137] = 
+{
+	GameManager_Start_m26461AEF27E44DB8FECCBC19D6C9E228B658BF8E,
+	GameManager_StartStream_mBF66EEFDF8C781674D8B4A8B5387B7C1022967BB,
+	GameManager__ctor_mE8666F6D0CA9C31E16B719F79780DC4B0245B64D,
+	SocketManager_get_Instance_m87D43BACDCED73D8835A0729803879404120A6BB,
+	SocketManager_Start_m9EEF513D73B2859465834840E2478C5094614E52,
+	SocketManager_Update_m14214186D48C38DEEE8BAE2D97224676B87C7460,
+	SocketManager_Init_mB62FFF23AA57D8C1CCD22D8EF389E128A689ECA8,
+	SocketManager_ClientConnect_m3261ACB38839675562DF1AEFF92458A8C1CDB84B,
+	SocketManager_ClientReceiveMessage_m29CB883062F5B292E5A2CF45DEDB6F545CCB1630,
+	SocketManager_ClientWarning_m8B45D357EC30D0139616C7D0A7351A5A1B67BFC5,
+	SocketManager_ClientRestart_m985676098E562754F8405C704D9CF049E55F04B2,
+	SocketManager_AI_e_ClientRstart_m47E1B9FA12BA90A3177AB3A7428ADC5E9464FCBF,
+	SocketManager_byteLengthToFrameByteArray_mDD3D9D0638929E3C99F163EC440C578C9751B712,
+	SocketManager_SendJson_m969E7FB700FA850CCC0FFC45CAF11B4DCA27F50B,
+	SocketManager_CloseAISocket_m3A3450D943ED6C11C0EA4E4399EE57FC4AE543D9,
+	SocketManager_OnDisable_m56806068A94A6D94D447ADDE9D640D1A2F519E2A,
+	SocketManager__ctor_mB1966FF5284C6F9DFDA05917E9F65CA2ED79143F,
+	U3CAI_e_ClientRstartU3Ed__18__ctor_mD2A3DB05AEEE7695079549182838D41E0060C1E1,
+	U3CAI_e_ClientRstartU3Ed__18_System_IDisposable_Dispose_m3A3652A4CAA7F57D79F8A6C834FD431D87BAF721,
+	U3CAI_e_ClientRstartU3Ed__18_MoveNext_m80EA80EE40320EBB91CC1B64CE96C12F4F58C6E0,
+	U3CAI_e_ClientRstartU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2E57E167BAA5D06B85A38D319509C3972F924B92,
+	U3CAI_e_ClientRstartU3Ed__18_System_Collections_IEnumerator_Reset_m6C1DFDE3BB2D7079CB27E660C5EA7C63A906EEAD,
+	U3CAI_e_ClientRstartU3Ed__18_System_Collections_IEnumerator_get_Current_mDEA542A6022A26586E5D8687D1F9DC7A7586AD2F,
+	MediaCaptureUnity_get_Instance_m456E9A04BEC9D3A8971A895D646A4C9287BF10A4,
+	MediaCaptureUnity_ResetMediaCaptureforFocus_mB5BD9392B89952C5A5B3078A3F817393CE853C3E,
+	MediaCaptureUnity_EncodeRealImage_mAC2D4D3540B81654A255000956120260A49CE01E,
+	MediaCaptureUnity_InitializeMediaCaptureAsync_mEC2AC8CD8738CE501B741F49646E6F7AEEA80EB0,
+	MediaCaptureUnity_StartFrameReaderAsync_m398B9D384BCD6054DB783D011D307D48A3403A35,
+	MediaCaptureUnity_StopFrameReaderAsync_mA768CBE2BC13FA6CB0A7BD58121BA15D745AA4AE,
+	MediaCaptureUnity_OnFrameArrived_mF92B566250A188C7CC6F105CD9868C0FB5734FBE,
+	MediaCaptureUnity_CreateSoftwareBitmapFromSurface_m13E36E7E108F67F86AD42B193F634F66297CDB0E,
+	MediaCaptureUnity_InitializeMediaCaptureAsyncWrapper_m0AB7150840CBDF14EB0D3DDA7EEB3ADD91E9E0A3,
+	MediaCaptureUnity_StartFrameReaderAsyncWrapper_m5D65F2793BD5F556F2378BF87C4E16D8992507E0,
+	MediaCaptureUnity_StopFrameReaderAsyncWrapper_m865966E7B147EB642B20B07A4FE0E899BBA29ACE,
+	MediaCaptureUnity_Update_m4EE72C7831554B0D807FBEAA61FC29BCE05E68DF,
+	MediaCaptureUnity_Start_m0468A37C2BD6C1D1CD6DCBDC81991034A685A2CA,
+	MediaCaptureUnity_OnApplicationFocus_mCCAC2C5E3E3FD8281AE85A1E7A26FA9227853184,
+	MediaCaptureUnity_e_ResetMediaCapture_m4AB469B525594C8669129DEC4F896EB31C9062DF,
+	MediaCaptureUnity_e_ResetMediaCaptureforFocus_m494E487ADC8A60EB4DB57FF0A41EC8880DA565F7,
+	MediaCaptureUnity_ToggleVideo_m5850E63D8F2B856F99EDDADE7CBC0BC2CE66F08E,
+	MediaCaptureUnity_ResetMediaCapture_m7E6BAEC04DF087298F3F5BD7B9A3E2018D3C741A,
+	MediaCaptureUnity__ctor_m20D47124EF20AB2559BB61E3CB0687D4B6B2D89E,
+	MediaCaptureUnity__cctor_m1B6C6F27508AC138E85A11D9BCF0BBD1B2832E8E,
+	MediaCaptureUnity_U3CInitializeMediaCaptureAsyncWrapperU3Eb__30_0_mFF65570EF4EE6D5092DD0F30205E5ACE782C36E3,
+	IMemoryBufferByteAccess_GetBuffer_m521C91DEA02F896C42EFCE9ADDF525C2C98DB0DB,
+	U3CU3Ec__DisplayClass23_0__ctor_mDF4C488E30BD05BB8EF871CAD96FD6A87A87E347,
+	U3CU3Ec__DisplayClass23_0_U3CEncodeRealImageU3Eb__0_m9CA6EBA5C5F3A3B696D6F0C9AB4E6A6AF3B22371,
+	U3CU3CEncodeRealImageU3Eb__0U3Ed_MoveNext_mCB6AFFF90F56B956733576C733D838B9C862CD13,
+	U3CU3CEncodeRealImageU3Eb__0U3Ed_SetStateMachine_m810F93954B87A2C43B3BF7F1D42CE56A860DD3BE,
+	U3CU3Ec__DisplayClass24_0__ctor_mDF2790596CA155578D378E8008AE716E3ECD9A99,
+	U3CU3Ec__DisplayClass24_0_U3CInitializeMediaCaptureAsyncU3Eb__0_m9921FDBD9A8BFA314CFCBD426C657D4E4C8758DC,
+	U3CU3Ec__cctor_mE0ABF9AC67111EDE01A3C25508BC39DF467F4A2E,
+	U3CU3Ec__ctor_m419FE4D9521821EEFC7B6A0607E2E68D217CD5C1,
+	U3CU3Ec_U3CInitializeMediaCaptureAsyncU3Eb__24_1_m7A4E4E354280D561AF7272FDA42C41FCF1B90EA2,
+	U3CInitializeMediaCaptureAsyncU3Ed__24_MoveNext_mE5F34E6B13C06527B340FCACA94C1EE6179CB2E7,
+	U3CInitializeMediaCaptureAsyncU3Ed__24_SetStateMachine_mBF0593B391EA9DE1CFA5F6BD6C53CFE7C8CC5D92,
+	U3CStartFrameReaderAsyncU3Ed__25_MoveNext_m8E4516861F6960EB97615D262AA38A139750B723,
+	U3CStartFrameReaderAsyncU3Ed__25_SetStateMachine_mD823B23C64A8641AD67623843CA923C9FE1E177E,
+	U3CStopFrameReaderAsyncU3Ed__26_MoveNext_m6A355C3ABFAF96C3670E46AB6C9B035AD9A398B6,
+	U3CStopFrameReaderAsyncU3Ed__26_SetStateMachine_mE342DEED4901A3577BD461B79D18D7115710EA46,
+	U3CCreateSoftwareBitmapFromSurfaceU3Ed__29_MoveNext_m0318182FC04204912E92D6B98C8A3EAA426DD860,
+	U3CCreateSoftwareBitmapFromSurfaceU3Ed__29_SetStateMachine_m1C2911FD3DBBB373A02F55CE11DF1E2BF759D8F7,
+	U3CInitializeMediaCaptureAsyncWrapperU3Ed__30_MoveNext_mB3BBBD765089D07979959295780C67B2535A99F2,
+	U3CInitializeMediaCaptureAsyncWrapperU3Ed__30_SetStateMachine_mA7D1484BEB1FCBB485A7EEF8B49E0BF6EAE9BCD4,
+	U3CStartFrameReaderAsyncWrapperU3Ed__31_MoveNext_m16FCB4BFD8ADB92980710E9C17E0F70A0B0B2396,
+	U3CStartFrameReaderAsyncWrapperU3Ed__31_SetStateMachine_m8D42D175FCB28ADDCA5DE0A136FA22697C3C8626,
+	U3CStopFrameReaderAsyncWrapperU3Ed__32_MoveNext_m57F69B086CDC18EAFAD95ADCBF6C09EE47888015,
+	U3CStopFrameReaderAsyncWrapperU3Ed__32_SetStateMachine_mF0B5C2013137C35E7A937F6A433CB4CC35A38EBA,
+	U3Ce_ResetMediaCaptureU3Ed__36__ctor_mBB756A2986C9FDE634580EC52AF998C3162FA029,
+	U3Ce_ResetMediaCaptureU3Ed__36_System_IDisposable_Dispose_mB27A11CB17D34EE9113F43B7565691AF678797BD,
+	U3Ce_ResetMediaCaptureU3Ed__36_MoveNext_mF92522B4F248C3A539D3D2B6E5C455F774DF6957,
+	U3Ce_ResetMediaCaptureU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2C56F3B695C309D1FBB36BC6CCDC3020268A49B2,
+	U3Ce_ResetMediaCaptureU3Ed__36_System_Collections_IEnumerator_Reset_m7C6D04A7F2ACDB22221C7D3B7EFF6242A4768112,
+	U3Ce_ResetMediaCaptureU3Ed__36_System_Collections_IEnumerator_get_Current_m4BAD9F5CAE53182F573E36DD0E5B5888E9E46ADE,
+	U3Ce_ResetMediaCaptureforFocusU3Ed__37__ctor_mF14C86126DF493F2A0C64C3C98971BBBD806F31C,
+	U3Ce_ResetMediaCaptureforFocusU3Ed__37_System_IDisposable_Dispose_m5BA4103F50C7F59BEEBA3CA43A80C2D486D0C4ED,
+	U3Ce_ResetMediaCaptureforFocusU3Ed__37_MoveNext_m6CDAE083825DEAA33169CB580766A2A8D3F2185A,
+	U3Ce_ResetMediaCaptureforFocusU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2C776387260B4AD13A4D50326614AA41A08A03AE,
+	U3Ce_ResetMediaCaptureforFocusU3Ed__37_System_Collections_IEnumerator_Reset_m996C36668BAC4C87DEE9362A1DB00B362657D4BF,
+	U3Ce_ResetMediaCaptureforFocusU3Ed__37_System_Collections_IEnumerator_get_Current_m8862FF21A13DE1A7DECE3EDB04A3870BD3E282D2,
+	U3CResetMediaCaptureU3Ed__39__ctor_m12632EBAE771148CEE7DAA29F1E34C7963D25812,
+	U3CResetMediaCaptureU3Ed__39_System_IDisposable_Dispose_m1575A3AC54E995BD416A6203325776B936941416,
+	U3CResetMediaCaptureU3Ed__39_MoveNext_m5956C9CFA40C56A62A459A753226817BF87E9B99,
+	U3CResetMediaCaptureU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m973DAD5C60A2B5DD71A9F1A76C227EB2F8494309,
+	U3CResetMediaCaptureU3Ed__39_System_Collections_IEnumerator_Reset_mFBF97A96949A7B5F077C0C10AD7419967717CF28,
+	U3CResetMediaCaptureU3Ed__39_System_Collections_IEnumerator_get_Current_m1C627A284EB96EE234D0434D075F255680E1028E,
+	MotorStatus_Start_m13EEDEC7D49D7DA68B200326B000BAA43F457A6E,
+	MotorStatus_Update_mB9DFF2E8C7621DAC678768290EBB12B297103B4C,
+	MotorStatus_dosUpdate_m3387D1CAF2EFE5C7E39A8597BF4D3BF6A7B3C9B8,
+	MotorStatus_disUpdate_m5BA355CC0590868DA59CE1709CAB470FB8346239,
+	MotorStatus__ctor_m9C1B0213EFB98C33DCBCE7B427416E97F2EE4593,
+	CTcpClient_add_Receive_m5B5A856D773EC9F9265EA4289DF7D8606A5F2CFC,
+	CTcpClient_remove_Receive_m8CFA450C59F4705E4335BD4EFF7023E3DCC3D517,
+	CTcpClient_add_Warning_m96918CF88EAC77B6822B8C6C631712CC1AE3426D,
+	CTcpClient_remove_Warning_m9376CF2C940CB0FB536D175245C77FA5A7165597,
+	CTcpClient_get_IP_m92BD65CCCF5917A68887E6116A5570AF543450E9,
+	CTcpClient_set_IP_m610FF34E40A724650239CAB7FF1050F887887956,
+	CTcpClient_get_Port_mE2C44405CD49B2B2E3AD033E00C89F7E3C68361C,
+	CTcpClient_set_Port_m80006A3AFB8C1C715E6EAE207D183EDD8E02528C,
+	CTcpClient__ctor_m5558E43F1D0F92A13D42209CA566DEE257A99781,
+	CTcpClient_StartConnect_m8368D6961736C762CE232ED1B4720D99D66617BD,
+	CTcpClient_StopConnect_m5484A07511E2601CF15C96BC6DFBBBB9932EA2C3,
+	CTcpClient_get_IsConnected_m4EC01CEB146A9EF52A524E0D4D2856D9CB153B43,
+	CTcpClient_Send_mC0FD263B26D6CB3501610C626CD02CF2AF2450D3,
+	CTcpClient_SendByte_m597297635D738A008B78B025B8D2EB254D30A387,
+	CTcpClient_AsyncSendByte_mC3678CD0D35AE5A53E284A3D3987FA1F7EEAD931,
+	CTcpClient_Thread_Connect_m68B1E2FA1D6887935DE36327951AA4BE67D49ED8,
+	CTcpClient_ConnectCallback_m21972A4BE9FA0A0460E5474E1DCA93EA04DBC743,
+	CTcpClient_SendCallback_m9DC1DF9FD682C0304534B8334D6F557B3A44231C,
+	CTcpClient__cctor_mEBDFE14A9322C9B6798DC247BD151D95B555AA65,
+	CTcpClient_U3C_ctorU3Eb__27_0_m1AE2110EDFA86FD199AEED5C4B9005D676A6C1C2,
+	d_Receive__ctor_m59F39A8977B7A78F0F5CF5B8216767EE29610D19,
+	d_Receive_Invoke_m3042DBAA485461B02A8BC37C7AF9B2CC9D0A2161,
+	d_Receive_BeginInvoke_mAE07F27ECC8B5FC7828A4BE8715F8E52153CA22A,
+	d_Receive_EndInvoke_mD39DDB68B58819F10A56EEEDAFABFCFC84D16922,
+	d_Warning__ctor_m2FABF70BD1A0C52CD1B97A555AF5F1AE9A3A9CB7,
+	d_Warning_Invoke_m6EF1B27521B11EE2431EA13E64A00D2EF9BB3416,
+	d_Warning_BeginInvoke_mF16B9B5E7C4A0A61A2F6A328BD20470DCFCFA7FD,
+	d_Warning_EndInvoke_mAAEF5E4FAA951A9A247273266ECB3024D2508A12,
+	U3CU3Ec__cctor_mC779D9A44701D927C199C7DB09342B0B6D39BA77,
+	U3CU3Ec__ctor_m89849EC667CD0B76408945FFD6D88448389F2428,
+	U3CU3Ec_U3C_ctorU3Eb__27_1_mCB0BC9A83805A0D48589F1E377E3DF828D9A2A26,
+	ParsingResult_Start_m479480E3305F1700A59D621BCBDCCCBAE41A92B2,
+	ParsingResult_Update_mB10BD5348B418BD1FC61678CAA2B025699FDC61B,
+	ParsingResult_parsing_mFB413268BC91C14F2853428544C3EE4462F1DAAC,
+	ParsingResult__ctor_mE9A6A90BB56B2100D3DFF259C9DFE184546E1007,
+	SettingServerIP_Start_mDE042AFD4C569BC75C1B9072F30B6BE96750FFAD,
+	SettingServerIP_Update_m0F997B0A508A64C21A484D6D74DBB4131E2F2AA6,
+	SettingServerIP_setIP_m285E6597B3E555D2FE24A00C5C211B1902EB949B,
+	SettingServerIP__ctor_m9F96DCEB1F3B3050ECEC98D7F053680694F61D6E,
+	SMsgAttribute__ctor_mBEC56FC1AF2CD796B625B4906806CF611DC5DDA3,
+	SocketMsgManager_get_Instance_mE99B0D4F54BCA658CB1D5277AB8F3B696DA484E9,
+	SocketMsgManager_set_Instance_mDCD5877849F0572F6C37770E94F7ECDC78FF2DC7,
+	SocketMsgManager_Awake_m948D3B82C8644E9F1E34464838FE47636B432AA7,
+	SocketMsgManager_ParseJson_mB45140EBCD8FF5BC6D7A1EB4179E7F30012761A8,
+	SocketMsgManager__ctor_mD16D2ABD0F90C82B999D73CA0BAE049E29097A60,
+	U3CPrivateImplementationDetailsU3E_ComputeStringHash_mD94B0E22EF32AD3DFD277ED8E911B5DFA4CDB91E,
+};
+extern void U3CU3CEncodeRealImageU3Eb__0U3Ed_MoveNext_mCB6AFFF90F56B956733576C733D838B9C862CD13_AdjustorThunk (void);
+extern void U3CU3CEncodeRealImageU3Eb__0U3Ed_SetStateMachine_m810F93954B87A2C43B3BF7F1D42CE56A860DD3BE_AdjustorThunk (void);
+extern void U3CInitializeMediaCaptureAsyncU3Ed__24_MoveNext_mE5F34E6B13C06527B340FCACA94C1EE6179CB2E7_AdjustorThunk (void);
+extern void U3CInitializeMediaCaptureAsyncU3Ed__24_SetStateMachine_mBF0593B391EA9DE1CFA5F6BD6C53CFE7C8CC5D92_AdjustorThunk (void);
+extern void U3CStartFrameReaderAsyncU3Ed__25_MoveNext_m8E4516861F6960EB97615D262AA38A139750B723_AdjustorThunk (void);
+extern void U3CStartFrameReaderAsyncU3Ed__25_SetStateMachine_mD823B23C64A8641AD67623843CA923C9FE1E177E_AdjustorThunk (void);
+extern void U3CStopFrameReaderAsyncU3Ed__26_MoveNext_m6A355C3ABFAF96C3670E46AB6C9B035AD9A398B6_AdjustorThunk (void);
+extern void U3CStopFrameReaderAsyncU3Ed__26_SetStateMachine_mE342DEED4901A3577BD461B79D18D7115710EA46_AdjustorThunk (void);
+extern void U3CCreateSoftwareBitmapFromSurfaceU3Ed__29_MoveNext_m0318182FC04204912E92D6B98C8A3EAA426DD860_AdjustorThunk (void);
+extern void U3CCreateSoftwareBitmapFromSurfaceU3Ed__29_SetStateMachine_m1C2911FD3DBBB373A02F55CE11DF1E2BF759D8F7_AdjustorThunk (void);
+extern void U3CInitializeMediaCaptureAsyncWrapperU3Ed__30_MoveNext_mB3BBBD765089D07979959295780C67B2535A99F2_AdjustorThunk (void);
+extern void U3CInitializeMediaCaptureAsyncWrapperU3Ed__30_SetStateMachine_mA7D1484BEB1FCBB485A7EEF8B49E0BF6EAE9BCD4_AdjustorThunk (void);
+extern void U3CStartFrameReaderAsyncWrapperU3Ed__31_MoveNext_m16FCB4BFD8ADB92980710E9C17E0F70A0B0B2396_AdjustorThunk (void);
+extern void U3CStartFrameReaderAsyncWrapperU3Ed__31_SetStateMachine_m8D42D175FCB28ADDCA5DE0A136FA22697C3C8626_AdjustorThunk (void);
+extern void U3CStopFrameReaderAsyncWrapperU3Ed__32_MoveNext_m57F69B086CDC18EAFAD95ADCBF6C09EE47888015_AdjustorThunk (void);
+extern void U3CStopFrameReaderAsyncWrapperU3Ed__32_SetStateMachine_mF0B5C2013137C35E7A937F6A433CB4CC35A38EBA_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[16] = 
+{
+	{ 0x06000030, U3CU3CEncodeRealImageU3Eb__0U3Ed_MoveNext_mCB6AFFF90F56B956733576C733D838B9C862CD13_AdjustorThunk },
+	{ 0x06000031, U3CU3CEncodeRealImageU3Eb__0U3Ed_SetStateMachine_m810F93954B87A2C43B3BF7F1D42CE56A860DD3BE_AdjustorThunk },
+	{ 0x06000037, U3CInitializeMediaCaptureAsyncU3Ed__24_MoveNext_mE5F34E6B13C06527B340FCACA94C1EE6179CB2E7_AdjustorThunk },
+	{ 0x06000038, U3CInitializeMediaCaptureAsyncU3Ed__24_SetStateMachine_mBF0593B391EA9DE1CFA5F6BD6C53CFE7C8CC5D92_AdjustorThunk },
+	{ 0x06000039, U3CStartFrameReaderAsyncU3Ed__25_MoveNext_m8E4516861F6960EB97615D262AA38A139750B723_AdjustorThunk },
+	{ 0x0600003A, U3CStartFrameReaderAsyncU3Ed__25_SetStateMachine_mD823B23C64A8641AD67623843CA923C9FE1E177E_AdjustorThunk },
+	{ 0x0600003B, U3CStopFrameReaderAsyncU3Ed__26_MoveNext_m6A355C3ABFAF96C3670E46AB6C9B035AD9A398B6_AdjustorThunk },
+	{ 0x0600003C, U3CStopFrameReaderAsyncU3Ed__26_SetStateMachine_mE342DEED4901A3577BD461B79D18D7115710EA46_AdjustorThunk },
+	{ 0x0600003D, U3CCreateSoftwareBitmapFromSurfaceU3Ed__29_MoveNext_m0318182FC04204912E92D6B98C8A3EAA426DD860_AdjustorThunk },
+	{ 0x0600003E, U3CCreateSoftwareBitmapFromSurfaceU3Ed__29_SetStateMachine_m1C2911FD3DBBB373A02F55CE11DF1E2BF759D8F7_AdjustorThunk },
+	{ 0x0600003F, U3CInitializeMediaCaptureAsyncWrapperU3Ed__30_MoveNext_mB3BBBD765089D07979959295780C67B2535A99F2_AdjustorThunk },
+	{ 0x06000040, U3CInitializeMediaCaptureAsyncWrapperU3Ed__30_SetStateMachine_mA7D1484BEB1FCBB485A7EEF8B49E0BF6EAE9BCD4_AdjustorThunk },
+	{ 0x06000041, U3CStartFrameReaderAsyncWrapperU3Ed__31_MoveNext_m16FCB4BFD8ADB92980710E9C17E0F70A0B0B2396_AdjustorThunk },
+	{ 0x06000042, U3CStartFrameReaderAsyncWrapperU3Ed__31_SetStateMachine_m8D42D175FCB28ADDCA5DE0A136FA22697C3C8626_AdjustorThunk },
+	{ 0x06000043, U3CStopFrameReaderAsyncWrapperU3Ed__32_MoveNext_m57F69B086CDC18EAFAD95ADCBF6C09EE47888015_AdjustorThunk },
+	{ 0x06000044, U3CStopFrameReaderAsyncWrapperU3Ed__32_SetStateMachine_mF0B5C2013137C35E7A937F6A433CB4CC35A38EBA_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[137] = 
+{
+	3728,
+	3728,
+	3728,
+	5324,
+	3728,
+	3728,
+	3728,
+	3687,
+	1811,
+	3728,
+	3728,
+	3654,
+	1816,
+	3080,
+	3728,
+	3728,
+	3728,
+	3051,
+	3728,
+	3687,
+	3654,
+	3728,
+	3654,
+	5324,
+	3728,
+	1808,
+	3654,
+	3654,
+	3654,
+	1816,
+	3080,
+	3728,
+	3728,
+	3728,
+	3728,
+	3728,
+	3110,
+	3654,
+	3654,
+	3728,
+	3654,
+	3728,
+	5347,
+	3728,
+	1502,
+	3728,
+	3654,
+	3728,
+	3080,
+	3728,
+	2686,
+	5347,
+	3728,
+	2246,
+	3728,
+	3080,
+	3728,
+	3080,
+	3728,
+	3080,
+	3728,
+	3080,
+	3728,
+	3080,
+	3728,
+	3080,
+	3728,
+	3080,
+	3051,
+	3728,
+	3687,
+	3654,
+	3728,
+	3654,
+	3051,
+	3728,
+	3687,
+	3654,
+	3728,
+	3654,
+	3051,
+	3728,
+	3687,
+	3654,
+	3728,
+	3654,
+	3728,
+	3728,
+	1715,
+	1715,
+	3728,
+	3080,
+	3080,
+	3080,
+	3080,
+	3654,
+	3080,
+	3625,
+	3051,
+	256,
+	3728,
+	3728,
+	3687,
+	3080,
+	3080,
+	1816,
+	3728,
+	3080,
+	3080,
+	5347,
+	1816,
+	1813,
+	1811,
+	532,
+	3080,
+	1813,
+	3728,
+	1274,
+	3080,
+	5347,
+	3728,
+	1816,
+	3728,
+	3728,
+	3080,
+	3728,
+	3728,
+	3728,
+	3728,
+	3728,
+	3728,
+	5324,
+	5266,
+	3728,
+	3080,
+	3728,
+	5090,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	137,
+	s_methodPointers,
+	16,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
