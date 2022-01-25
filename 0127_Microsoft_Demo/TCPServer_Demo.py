@@ -95,7 +95,7 @@ def run(s):
                 img_real_decode = base64.b64decode(imgb64_real)
                 real_nparr = np.fromstring(img_real_decode, np.uint8) 
                 img_real = cv2.imdecode(real_nparr, cv2.IMREAD_COLOR)
-                cv2.imshow('real', img_real)
+                # cv2.imshow('real', img_real)
 
                 # YoloPredict
                 # if runYolo:
@@ -117,8 +117,7 @@ def run(s):
                 #     data = f"motor {yoloAccuracy: .2f}|{motorStatus}"
                 #     print(f"motor {yoloAccuracy: .2f}")
                 with open("MotorStatus.txt", "r") as f:
-                    data = "motor|" + f.readline()
-
+                    data = "Motor|" + f.readline()
                 conn.send(data.encode()) # 回傳訊息給眼鏡
 
 #                print('new_img', new_img.shape)

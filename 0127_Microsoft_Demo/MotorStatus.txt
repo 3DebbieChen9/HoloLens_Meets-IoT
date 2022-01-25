@@ -1,1 +1,1 @@
-Do1-False,Do2-False,Do3-False,Do4-False,Di1-True,Di2-True,Di3-False,Di4-False,Di5-False,Di6-False,Pos-1000
+Do1-False,Do2-False,Do3-False,Do4-False,Di1-False,Di2-False,Di3-False,Di4-False,Di5-False,Di6-False,Pos-0
